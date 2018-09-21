@@ -1,0 +1,52 @@
+# this is your configuration file that gives instructions to jekyll
+brand_color: '#f05f40'
+featured_color: red
+light_color: grey
+font_family: 'Courier New'
+heading_font_size: 18px
+body_font_size: 18px
+
+
+# here list all of your categories
+categories:
+- food
+- wine
+- travel
+- chocolate
+
+# here list any additional collections you create
+collections:
+  - products
+
+
+# here we can set defaults for our pages, posts of collection items
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+      title: ""
+      description: ""
+      keywords: ""
+      featured-image_path: ""
+  -
+    scope:
+      path: ""
+      type: "posts" # this will apply to all posts
+    values:
+      layout: post
+      title: ""
+      categories: ""
+      author: "Joe"
+      image_path: ""
+  -
+    scope:
+      path: ""
+      type: "products" # this will apply to all products
+    values:
+      title: ""
+      description: ""
+      price: ""
+      type: ""
+      image_path: ""

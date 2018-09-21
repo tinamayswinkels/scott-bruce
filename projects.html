@@ -1,0 +1,25 @@
+---
+layout: default
+title: Blog
+---
+
+<section class="grid-center">
+
+  <div class="col-12">
+    <h1 class="centered"> Latest projects </h1>
+  </div>
+
+  <div class="col-8_sm-12 project-loop">
+
+    {% for post in site.posts limit:8 %}
+      <div class="project-item padded">
+            <div class="bg-img" style="background-image:url({{post.image_path}})"></div>
+            <h3> {{post.title}} </h3>
+            <p> {{post.excerpt | truncatewords:50 }} </p>
+            <a href="{{post.url}}" class="button"> See More </a>
+        </div>
+    {% endfor %}
+
+  </div>
+
+</section>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+  </head>
+
+  <body>
+
+      {% include site-header.html %}
+
+      <!-- this is where the content from each page will be pasted when jekyll renders -->
+
+      {{content}}
+
+      {% include site-footer.html %}
+      {% include body-scripts.html %}
+      <!-- this will paste in all of the scripts you want before the closing body tag -->
+
+  </body>
+</html>

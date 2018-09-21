@@ -1,0 +1,23 @@
+<div>
+  <img class="sidebar-img" src="/images/lex-and-hayden.jpg">
+  <div class="padded">
+    <h3> Oh hey there.  </h3>
+    <p> We're the Evolution Salt Co Team. </p>
+    <p> We believe in creating only the highest quality natural products at affordable prices. We love the little luxuries in life that make you smile. We care about the environment, about people, about the world. We believe in eating good, real food and sharing it with friends. We want to make an impact with the products we purchase and leave a positive footprint behind us.  </p>
+  </div>
+</div>
+
+<div class="padded">
+  <p> You could put anything you want in here, like links to your social or featured articles, a newsletter signup, etc </p>
+</div>
+
+<div class="padded">
+
+  <h4> Categories </h4>
+
+  <!-- this will output a list of all the categories on your site -->
+  {% for category in site.categories %}
+    <a href="/category/{{category | first }}" class="category">{{category | first}}</a>
+  {% endfor %}
+
+</div>
