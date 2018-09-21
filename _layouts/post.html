@@ -5,7 +5,7 @@ title: Shop
 
 <section class="tall grid-center">
 
-  <div class="col-6_md-8_sm-12 post-body">
+  <div class="col-7_sm-12 post-body">
       <h1> {{page.title}} </h1>
 
       {{content}}
@@ -14,7 +14,7 @@ title: Shop
 
 </section>
 <section class="light padded">
-   <h2> Related Projects </h2>
+   <h2 class="centered"> Related Projects </h2>
 
      <div class="grid">
 
@@ -23,7 +23,7 @@ title: Shop
 
        <a href="{{post.url}}" class="bg-img square-img" style="background-image:url({{post.image_path}})">
 
-         <h3 class="show-on-hover"> {{post.title}}</h3>
+         <h3 class="show-on-hover"> <mark> {{post.title}} </mark></h3>
 
        </a>
      </div>

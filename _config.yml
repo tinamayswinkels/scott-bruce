@@ -1,11 +1,5 @@
 # this is your configuration file that gives instructions to jekyll
-brand_color: '#f05f40'
-featured_color: red
-light_color: grey
-font_family: 'Courier New'
-heading_font_size: 18px
-body_font_size: 18px
-
+permalink: /:title
 
 # here list all of your categories
 categories:
