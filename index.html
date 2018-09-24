@@ -3,10 +3,11 @@ layout: default
 title: This is the title
 description: Events and lifestyle photographer
 keywords:
+banner_image:
 ---
 
 <!-- FIRST BANNER SECTION ---->
-  <section class="banner featured-bg centered grid-middle">
+  <section class="banner featured-bg centered grid-middle" style="background-image:url({{page.banner_image}})">
     <div class="col editable">
       <h1><mark>Scott Bruce Photography </mark></h1>
       <p><mark>Music, Events &amp; Lifestyle Photographer</mark></p>
@@ -23,7 +24,7 @@ keywords:
 
   <section id="portfolio" class="padded">
 
-    <h2 class="centered"> Recent Projects </h2>
+    <h2 class="centered editable"> Recent Projects </h2>
 
     <div class="grid">
 
@@ -42,8 +43,8 @@ keywords:
   </section>
 
 <section class="centered" id="register">
-  <h2> Let's Collab!  </h2>
-  <p> Keen to find out how we can work together? Hit me up and I'll get back to you ASAP! </p>
+  <h2 class="editable"> Let's Collab!  </h2>
+  <p class="editable"> Keen to find out how we can work together? Hit me up and I'll get back to you ASAP! </p>
 
   <form class="grid-center" action="https://formspree.io/tina@instituteofcode.com" method="POST">
       <div class="col-4_sm-12">
