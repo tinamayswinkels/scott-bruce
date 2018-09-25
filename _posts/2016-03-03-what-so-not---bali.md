@@ -3,7 +3,7 @@ layout: post
 title: What So Not - Bali
 meta-description:
 meta-keywords:
-image_path: /images/palm.png
+image_path: /uploads/whatsonot.jpeg
 categories:
 ---
 
