@@ -3,11 +3,11 @@ layout: post
 title: Gelato Factory Bali
 meta-description:
 meta-keywords:
-image_path: /images/palm.png
+image_path: /uploads/gelato.jpeg
 categories:
 ---
 
-Gelato Factory Bali is one of my 'foodie' clients that I shoot monthly for in Bali. Gelato Factory Bali are an authentic, family owned gelato company straight out of Italy. Each month we shoot content across their two populars venues (based in Seminyak and Canggu). Gelato Factory Bali are a great client to work with as I have full creative control over the direction and mood of each of the shoots.&nbsp;
+Gelato Factory Bali is one of my 'foodie' clients that I shoot monthly for in Bali. Gelato Factory Bali are an authentic, family owned gelato company straight out of Italy. Each month we shoot content across their two populars venues (based in Seminyak and Canggu). Gelato Factory Bali are a great client to work with as I have full creative control over the direction and mood of each of the shoots. 
 
 If you're ever visiting Bali be sure to check them out! (Oh - they also serve epic vegan gelato!)
 
