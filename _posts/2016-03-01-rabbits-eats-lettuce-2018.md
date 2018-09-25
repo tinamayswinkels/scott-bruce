@@ -3,7 +3,7 @@ layout: post
 title: Rabbits Eats Lettuce 2018
 meta-description:
 meta-keywords:
-image_path: /images/palm.png
+image_path: /uploads/2.jpg
 categories:
 ---
 
